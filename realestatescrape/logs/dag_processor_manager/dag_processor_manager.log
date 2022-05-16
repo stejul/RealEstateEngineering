@@ -1,0 +1,431 @@
+[2022-05-14 18:52:11,108] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-14 18:52:11,109] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-14 18:52:11,109] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-14 18:52:11,109] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-14 18:52:11,110] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-14 18:52:11,211] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     51  0.01s             0           0
+================================================================================
+[2022-05-14 18:52:40,313] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 17:16:19,224] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 17:16:19,225] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 17:16:19,225] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 17:16:19,225] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:16:19,226] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 17:16:19,338] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     53  0.01s             0           0
+================================================================================
+[2022-05-16 17:16:49,410] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py     81  0.00s             0           1  0.08s           2022-05-16T17:16:19
+================================================================================
+[2022-05-16 17:17:19,519] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py    100  0.00s             0           1  0.07s           2022-05-16T17:16:49
+================================================================================
+[2022-05-16 17:17:49,580] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           0           1  0.23s           2022-05-16T17:17:19
+================================================================================
+[2022-05-16 17:18:19,863] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           0           1  0.08s           2022-05-16T17:17:49
+================================================================================
+[2022-05-16 17:18:43,067] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 17:24:21,061] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 17:24:21,062] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 17:24:21,062] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 17:24:21,062] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:24:21,063] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 17:24:21,110] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     51  0.01s             0           0
+================================================================================
+[2022-05-16 17:24:51,181] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py     70  0.00s             0           1  0.08s           2022-05-16T17:24:21
+================================================================================
+[2022-05-16 17:25:21,287] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py     98  0.00s             0           1  0.08s           2022-05-16T17:24:51
+================================================================================
+[2022-05-16 17:25:51,361] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           0           1  0.10s           2022-05-16T17:25:21
+================================================================================
+[2022-05-16 17:26:21,496] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           0           1  0.09s           2022-05-16T17:25:51
+================================================================================
+[2022-05-16 17:26:51,626] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           0           1  0.09s           2022-05-16T17:26:21
+================================================================================
+[2022-05-16 17:27:01,925] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 17:38:05,497] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 17:38:05,498] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 17:38:05,498] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 17:38:05,498] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:38:05,499] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 17:38:05,548] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     51  0.01s             0           0
+================================================================================
+[2022-05-16 17:38:35,592] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           0           1  0.48s           2022-05-16T17:38:06
+================================================================================
+[2022-05-16 17:39:05,656] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.53s           2022-05-16T17:39:03
+================================================================================
+[2022-05-16 17:39:35,706] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.22s           2022-05-16T17:39:33
+================================================================================
+[2022-05-16 17:40:05,976] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.26s           2022-05-16T17:40:04
+================================================================================
+[2022-05-16 17:40:36,343] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.27s           2022-05-16T17:40:26
+================================================================================
+[2022-05-16 17:41:06,433] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.25s           2022-05-16T17:40:56
+================================================================================
+[2022-05-16 17:41:36,706] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.31s           2022-05-16T17:41:26
+================================================================================
+[2022-05-16 17:41:43,894] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 17:43:42,978] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 17:43:42,978] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 17:43:42,979] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 17:43:42,979] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:43:42,980] {manager.py:687} INFO - There are 2 files in /opt/airflow/dags
+[2022-05-16 17:43:43,033] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sum.py             53  0.02s             0           0
+/opt/airflow/dags/laendleimmo.py     54  0.01s             0           0
+================================================================================
+[2022-05-16 17:44:13,413] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sum.py                                   1           0  0.42s           2022-05-16T17:43:43
+/opt/airflow/dags/laendleimmo.py     78  0.01s             1           0  0.32s           2022-05-16T17:43:43
+================================================================================
+[2022-05-16 17:44:43,814] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sum.py            108  0.01s             1           0  0.26s           2022-05-16T17:44:13
+/opt/airflow/dags/laendleimmo.py    109  0.00s             1           0  0.33s           2022-05-16T17:44:13
+================================================================================
+[2022-05-16 17:44:55,684] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 17:50:44,756] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 17:50:44,756] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 17:50:44,756] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 17:50:44,757] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:50:44,758] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 17:50:45,039] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     51  0.01s             0           0
+================================================================================
+[2022-05-16 17:51:15,096] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.31s           2022-05-16T17:50:45
+================================================================================
+[2022-05-16 17:51:45,444] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.34s           2022-05-16T17:51:15
+================================================================================
+[2022-05-16 17:52:15,831] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.27s           2022-05-16T17:51:46
+================================================================================
+[2022-05-16 17:52:46,146] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.31s           2022-05-16T17:52:16
+================================================================================
+[2022-05-16 17:53:16,500] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.25s           2022-05-16T17:52:46
+================================================================================
+[2022-05-16 17:53:46,803] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.29s           2022-05-16T17:53:17
+================================================================================
+[2022-05-16 17:54:17,123] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.27s           2022-05-16T17:53:47
+================================================================================
+[2022-05-16 17:54:47,435] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.30s           2022-05-16T17:54:17
+================================================================================
+[2022-05-16 17:55:17,777] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.28s           2022-05-16T17:54:47
+================================================================================
+[2022-05-16 17:55:45,093] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:55:45,095] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 17:55:48,120] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.27s           2022-05-16T17:55:18
+================================================================================
+[2022-05-16 17:56:18,411] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.29s           2022-05-16T17:55:48
+================================================================================
+[2022-05-16 17:56:37,106] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 17:58:30,889] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 17:58:30,889] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 17:58:30,889] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 17:58:30,889] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 17:58:30,891] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 17:58:30,966] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     50  0.01s             0           0
+================================================================================
+[2022-05-16 17:58:58,133] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2022-05-16 18:15:27,468] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2022-05-16 18:15:27,469] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2022-05-16 18:15:27,469] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-05-16 18:15:27,469] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 18:15:27,470] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 18:15:27,530] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/laendleimmo.py     51  0.02s             0           0
+================================================================================
+[2022-05-16 18:15:57,579] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.57s           2022-05-16T18:15:28
+================================================================================
+[2022-05-16 18:16:28,197] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.29s           2022-05-16T18:15:58
+================================================================================
+[2022-05-16 18:16:58,526] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.28s           2022-05-16T18:16:28
+================================================================================
+[2022-05-16 18:17:28,855] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.28s           2022-05-16T18:16:59
+================================================================================
+[2022-05-16 18:17:59,170] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.30s           2022-05-16T18:17:29
+================================================================================
+[2022-05-16 18:18:29,514] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.26s           2022-05-16T18:17:59
+================================================================================
+[2022-05-16 18:18:59,808] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.27s           2022-05-16T18:18:30
+================================================================================
+[2022-05-16 18:19:30,115] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.27s           2022-05-16T18:19:00
+================================================================================
+[2022-05-16 18:20:00,422] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.28s           2022-05-16T18:19:30
+================================================================================
+[2022-05-16 18:20:27,738] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-05-16 18:20:27,740] {manager.py:687} INFO - There are 1 files in /opt/airflow/dags
+[2022-05-16 18:20:31,014] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/laendleimmo.py                           1           0  0.28s           2022-05-16T18:20:30
+================================================================================
+[2022-05-16 18:20:38,367] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15

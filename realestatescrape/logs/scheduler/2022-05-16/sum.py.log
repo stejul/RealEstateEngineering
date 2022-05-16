@@ -1,0 +1,25 @@
+[2022-05-16 17:43:43,024] {processor.py:153} INFO - Started process (PID=53) to work on /opt/airflow/dags/sum.py
+[2022-05-16 17:43:43,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/sum.py for tasks to queue
+[2022-05-16 17:43:43,025] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sum.py
+[2022-05-16 17:43:43,046] {processor.py:651} INFO - DAG(s) dict_keys(['sum']) retrieved from /opt/airflow/dags/sum.py
+[2022-05-16 17:43:43,341] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,341] {manager.py:508} INFO - Created Permission View: can edit on DAG:sum
+[2022-05-16 17:43:43,358] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,358] {manager.py:508} INFO - Created Permission View: can delete on DAG:sum
+[2022-05-16 17:43:43,375] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,375] {manager.py:508} INFO - Created Permission View: can read on DAG:sum
+[2022-05-16 17:43:43,375] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,375] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-16 17:43:43,386] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,386] {dag.py:2390} INFO - Creating ORM DAG for sum
+[2022-05-16 17:43:43,407] {logging_mixin.py:115} INFO - [2022-05-16 17:43:43,407] {dag.py:2919} INFO - Setting next_dagrun for sum to 2022-05-16T17:35:00+00:00, run_after=2022-05-16T17:40:00+00:00
+[2022-05-16 17:43:43,429] {processor.py:161} INFO - Processing /opt/airflow/dags/sum.py took 0.408 seconds
+[2022-05-16 17:44:13,490] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/sum.py
+[2022-05-16 17:44:13,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/sum.py for tasks to queue
+[2022-05-16 17:44:13,514] {logging_mixin.py:115} INFO - [2022-05-16 17:44:13,513] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sum.py
+[2022-05-16 17:44:13,525] {processor.py:651} INFO - DAG(s) dict_keys(['sum']) retrieved from /opt/airflow/dags/sum.py
+[2022-05-16 17:44:13,557] {logging_mixin.py:115} INFO - [2022-05-16 17:44:13,557] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-16 17:44:13,701] {logging_mixin.py:115} INFO - [2022-05-16 17:44:13,701] {dag.py:2919} INFO - Setting next_dagrun for sum to 2022-05-16T17:40:00+00:00, run_after=2022-05-16T17:45:00+00:00
+[2022-05-16 17:44:13,732] {processor.py:161} INFO - Processing /opt/airflow/dags/sum.py took 0.246 seconds
+[2022-05-16 17:44:43,814] {processor.py:153} INFO - Started process (PID=108) to work on /opt/airflow/dags/sum.py
+[2022-05-16 17:44:43,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/sum.py for tasks to queue
+[2022-05-16 17:44:43,815] {logging_mixin.py:115} INFO - [2022-05-16 17:44:43,814] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sum.py
+[2022-05-16 17:44:43,829] {processor.py:651} INFO - DAG(s) dict_keys(['sum']) retrieved from /opt/airflow/dags/sum.py
+[2022-05-16 17:44:43,865] {logging_mixin.py:115} INFO - [2022-05-16 17:44:43,865] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-16 17:44:44,014] {logging_mixin.py:115} INFO - [2022-05-16 17:44:44,014] {dag.py:2919} INFO - Setting next_dagrun for sum to 2022-05-16T17:40:00+00:00, run_after=2022-05-16T17:45:00+00:00
+[2022-05-16 17:44:44,052] {processor.py:161} INFO - Processing /opt/airflow/dags/sum.py took 0.241 seconds

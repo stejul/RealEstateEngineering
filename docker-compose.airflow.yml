@@ -63,6 +63,10 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    OPENLINEAGE_URL: http://api:5000
+    OPENLINEAGE_NAMESPACE: 'immo'
+    AIRFLOW__LINEAGE__BACKEND: openlineage.lineage_backend.OpenLineageBackend
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
   volumes:
     - ./realestatescrape/dags:/opt/airflow/dags
     - ./realestatescrape/logs:/opt/airflow/logs
