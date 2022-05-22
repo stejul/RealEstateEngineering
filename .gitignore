@@ -1,2 +1,5 @@
 .env
 __pycache__/
+realestatescrape/logs/
+realestatescrape/logs/dag_processor_manager
+realestatescrape/logs/scheduler
