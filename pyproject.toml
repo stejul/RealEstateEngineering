@@ -9,6 +9,7 @@ python = "^3.9"
 Scrapy = "^2.6.1"
 openlineage-airflow = "^0.8.1"
 apache-airflow = "^2.3.0"
+pandas = "^1.4.3"
 
 
 [tool.poetry.dev-dependencies]
