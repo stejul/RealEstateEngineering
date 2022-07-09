@@ -5,70 +5,7 @@ from datetime import datetime
 from scrapy.crawler import CrawlerProcess
 import pandas as pd
 import numpy as np
-from scrapy.utils.project import get_project_settings
 
-
-class LaendleimmoApartmentListScraper(scrapy.Spider):
-    name = "laendleimmo_apartment_list_scraper"
-
-    custom_settings = {
-        "AUTOTHROTTLE_ENABLED": True,
-        "FEED_EXPORT_ENCODING": "utf-8-sig",
-    }
-
-    apt_list_req_item = {
-        "id": [],
-        "link": [],
-        "created_at": []
-    }
-
-    id_increment = 0
-
-    def start_requests(self):
-        urls = ["https://www.laendleimmo.at/mietobjekt/wohnung/vorarlberg"]
-
-        for url in urls:
-            yield scrapy.Request(
-                url=url,
-                callback=self.parse,
-                headers={"User-Agent": random.choice(USER_AGENTS)},
-            )
-
-    def parse(self, response):
-        """
-        Iterate through all the links
-        """
-        for item in response.css("div.list-content h2.title-block-mobile"):
-            yield {
-                "link": item.css("a.js-ad-click::attr(href)").get(),
-                "request_header": response.request.headers.get("User-Agent"),
-                "access_timestamp": f"{datetime.date(datetime.now())} {datetime.time(datetime.now())}",
-            }
-            self.id_increment += 1
-            self.apt_list_req_item["id"].append(self.id_increment)
-            self.apt_list_req_item["link"].append(f"https://laendleimmo.at{item.css('a.js-ad-click::attr(href)').get()}")
-            self.apt_list_req_item["created_at"].append(datetime.date(datetime.now()))
-
-
-        """
-        Iterate through all the pages (pagination)
-        """
-        for next_page in response.css("ul li.next a"):
-            yield response.follow(
-                next_page,
-                self.parse,
-                headers={"User-Agent": random.choice(USER_AGENTS)},
-            )
-
-        df = pd.DataFrame(data=self.apt_list_req_item)
-        df = df.to_numpy()
-        np.savetxt("realestatescrape/data/apt_dump.csv", df, fmt="%s", delimiter=";", header="id;link;access_timestamp", comments="")
-        """
-        df.to_csv(
-            "realestatescrape/data/apt_dump.csv", index_label="id"
-        )
-        """
-        
 class LaendleimmoApartmentEntryScraper(scrapy.Spider):
     name = "laendleimmo_apartment_entry_scraper"
 
@@ -157,10 +94,3 @@ class LaendleimmoApartmentEntryScraper(scrapy.Spider):
         ).reset_index()
         """
 
-
-if __name__ == "__main__":
-    #TODO: fix somehow to run multiple spiders
-    process = CrawlerProcess(get_project_settings())
-    process.crawl(LaendleimmoApartmentListScraper)
-    process.crawl(LaendleimmoApartmentEntryScraper)
-    process.start()
